@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/normalized-css.css">
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="js/app.js"></script>
+	<title>Quiz App</title>
+</head>
+<body>
+	
+<section id="intro">
+	<div class="center">
+		<h2>How well do you know your alcohol?</h2>
+		<h2>Take the following quiz to find out!</h2>
+		<button id="begin">Begin Quiz</button>
+	</div>
+</section>
+
+<section id="quiz">
+
+<header class="header">
+
+	<img id="beer-cheers" style="width: 250px;" style="height: 250px;" src="images/beer-cheers.jpg"/>
+	
+	<img id="beer-cheers" style="width: 250px; float: right" style="height: 250px;" src="images/beer-cheers.jpg"/>
+	<h1>Alcohol Quiz</h1>
+
+</header>
+<div id="question-box">
+<p id="question">Question 1: Which president was elected in 1932 because of his promise to end Prohibition?</p>
+<div id="answers">
+      <input id="answer-a" type="radio" name="answer" value="0">
+      <label for="answer-a">Herbert Hoover</label>
+      <br>
+      <input id="answer-b" type="radio" name="answer" value="1">
+      <label for="answer-b">Franklin D. Roosevelt</label>
+      <br>
+      <input id="answer-c" type="radio" name="answer" value="2">
+      <label for="answer-c">Calvin Coolidge</label>
+      <br>
+      <input id="answer-d" type="radio" name="answer" value="3">
+      <label for="answer-d">Harry S. Truman</label>
+     <!-- <div class="beer-meter">-->
+      	<img id="mug-meter" class="mug-0" height="100em" width="100em" src="images/mug-0.png">
+<!--</div>-->
+</div>
+<div class="center">
+<button id="submit-answer">Submit Answer</button>
+</div>
+</div>
+</section>
+<section id="outro">
+	<div class="end"><h2>Cheers and thanks for playing!</h2>
+	<button id="retry">Play again</button>
+	</div>
+</section>
+
+</body>
+</html>

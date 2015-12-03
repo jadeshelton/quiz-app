@@ -1,0 +1,77 @@
+
+/* Intro styling */
+#intro {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	background-image: url('../images/intro.jpe');
+	background-repeat: no-repeat;
+	background-size: contain;
+	/*why doesn't it fit when the debugger isn't up?*/
+}
+
+.center {
+	text-align: center;
+}
+
+h2 {
+	font-size: 3em;
+	color: #000080;
+	text-shadow: 3px 3px 5px #add8e6, 3px 3px 5px #000000;
+}
+
+
+/* Quiz Question styling */
+h1 {
+	text-align: center;
+	size: 2em;
+	vertical-align: top;
+}
+
+.beer-cheers {
+	text-align: center;
+}
+
+#question-box {
+	border: .6em solid transparent;
+	border-image: url("../images/olive-border.jpe") 30% round;
+	width: 50%;
+	margin: auto;
+	padding: 2em;
+	margin-bottom: 4em;
+}
+
+p {
+	font-size: 1.5em;
+}
+
+label {
+	font-size: 1.2em;
+}
+
+#submit-answer {
+	margin-top: 1em;
+	font-size: 1.2em;
+	height: 2em;
+}
+
+/*float the beer mug right*/
+
+#outro {
+	background-image: url("../images/spilled-drink.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+}
+
+
+#mug-meter {
+	float: right;
+}
+
+
+.end {
+	text-align: center;
+}
