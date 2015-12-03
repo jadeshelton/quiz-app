@@ -7,11 +7,11 @@ $(document).ready(function() {
 	$('#intro').show()
 	$('#outro').hide()
 
-	/*
+	
 	$('#begin').one('click', function(){
 		$('#quiz').fadeIn(1000);
 		$('#intro').fadeOut(1000);
 	});
-	*/
+	
 
 });
