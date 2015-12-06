@@ -4,7 +4,7 @@
 	height: 100%;
 	width: 100%;
 	position: fixed;
-	background-image: url('../images/intro.jpe');
+	background-image: url('../images/Intro.jpe');
 	background-repeat: no-repeat;
 	background-size: contain;
 	/*why doesn't it fit when the debugger isn't up?*/
@@ -38,7 +38,7 @@ h1 {
 	width: 50%;
 	margin: auto;
 	padding: 2em;
-	margin-bottom: 4em;
+	margin-bottom: 4.1em;
 }
 
 p {
