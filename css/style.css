@@ -12,6 +12,7 @@
 
 .center {
 	text-align: center;
+	height: 5.5em;
 }
 
 h2 {
@@ -21,11 +22,34 @@ h2 {
 }
 
 
-/* Quiz Question styling */
-h1 {
+header {
+	height: 250px;
+}
+
+#beer-cheers-1 {
+	float: left; 
+	width: 25%;
+	height: 100%;
+	box-sizing: border-box; 
+	-moz-box-sizing: border-box;
+}
+
+#quiz-title {
+	float: left;
+	width: 50%;
+	box-sizing: border-box; 
+	-moz-box-sizing: border-box;
+	font-size: 3.5em;
+	padding: 10px;
 	text-align: center;
-	size: 2em;
-	vertical-align: top;
+}
+
+#beer-cheers-2 {
+	float: left; 
+	width: 25%;
+	height: 100%;
+	box-sizing:	border-box; 
+	-moz-box-sizing: border-box;
 }
 
 .beer-cheers {
@@ -67,8 +91,12 @@ label {
 }
 
 
-#mug-meter {
+.beer-meter {
 	float: right;
+	height: 100%;	
+	width: 100%;
+	margin-top: 2em;
+	text-align: center;
 }
 
 
