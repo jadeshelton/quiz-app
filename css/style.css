@@ -7,7 +7,6 @@
 	background-image: url('../images/Intro.jpe');
 	background-repeat: no-repeat;
 	background-size: contain;
-	/*why doesn't it fit when the debugger isn't up?*/
 }
 
 .center {
@@ -15,13 +14,14 @@
 	height: 5.5em;
 }
 
+/* Intro and outro text styling*/
 h2 {
 	font-size: 3em;
 	color: #000080;
 	text-shadow: 3px 3px 5px #add8e6, 3px 3px 5px #000000;
 }
 
-
+/* Quiz header styling*/
 header {
 	height: 250px;
 }
@@ -56,6 +56,7 @@ header {
 	text-align: center;
 }
 
+/* Quiz question box styling */
 #question-box {
 	border: .6em solid transparent;
 	border-image: url("../images/olive-border.jpe") 30% round;
@@ -69,28 +70,6 @@ p {
 	font-size: 1.5em;
 }
 
-label {
-	font-size: 1.2em;
-}
-
-#submit-answer {
-	margin-top: 1em;
-	font-size: 1.2em;
-	height: 2em;
-}
-
-/*float the beer mug right*/
-
-#outro {
-	background-image: url("../images/spilled-drink.jpg");
-	background-repeat: no-repeat;
-	background-size: contain;
-	position: fixed;
-	width: 100%;
-	height: 100%;
-}
-
-
 .beer-meter {
 	float: right;
 	height: 100%;	
@@ -99,6 +78,22 @@ label {
 	text-align: center;
 }
 
+/* Quiz submit button */
+#submit-answer {
+	margin-top: 1em;
+	font-size: 1.2em;
+	height: 2em;
+}
+
+/* End of game styling */
+#outro {
+	background-image: url("../images/spilled-drink.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+}
 
 .end {
 	text-align: center;
