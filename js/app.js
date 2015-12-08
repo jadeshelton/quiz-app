@@ -112,8 +112,8 @@ $(document).ready(function() {
     		$("#question-box").html(newQuestion);
     	}
     	else {
-    		$("#quiz").hide();
-    		$("#outro").show();
+    		$("#quiz").fadeOut(1500);
+    		$("#outro").fadeIn(1500);
     		if (numberCorrect == 1) {
     			var finalScore = '<span id="final">Cheers, mate!  You finished the quiz!  You answered '+numberCorrect+' question correctly.'
     			$(".end h2").html(finalScore);
