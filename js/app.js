@@ -65,7 +65,7 @@ $(document).ready(function() {
     	$(".mug-score-track").css("display", "none");
     	$("#mug-meter-0").css("display", "inline");
     	var newQuestion = '<p id="question">'+questions[currentQuestion].question+'</p><br><div id="answers"><input id="answer" type="radio" name="option" value="0"><span class="answer">'+questions[currentQuestion].choices[0]+'</span><br><input id="answer" type="radio" name="option" value="1"><span class="answer">'+questions[currentQuestion].choices[1]+'</span><br><input id="answer" type="radio" name="option" value="2"><span class="answer">'+questions[currentQuestion].choices[2]+'</span><br><input id="answer" type="radio" name="option" value="3"><span class="answer">'+questions[currentQuestion].choices[3]+'</span><br></div><div class="center"><button id="submit-answer">Submit Answer</button></div>';
-    	$("#question").html(newQuestion);
+    	$("#question-box").html(newQuestion);
     	$("#outro").hide();
     	$("#quiz").show();
     });
